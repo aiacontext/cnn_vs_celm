@@ -1,0 +1,42 @@
+----- Resultados da Comparação de Modelos -----
+
+CNN Tradicional:
+  - Acurácia: 0.9905
+  - Tempo de treinamento: 39.44 segundos
+
+CELM Básica:
+  - Acurácia: 0.6559
+  - Tempo de treinamento: 7.13 segundos
+
+CELM Avançada:
+  - Acurácia: 0.8364
+  - Tempo de treinamento: 4.23 segundos
+
+CELM Otimizada:
+  - Acurácia: 0.8747
+  - Tempo de treinamento: 14.63 segundos
+  - Configurações:
+    * Feature Dimension: 64
+    * Scale Factor: 0.5
+    * Regularização (λ): 0.01
+
+CELM Eficiente:
+  - Acurácia: 0.9464
+  - Tempo de treinamento: 6.50 segundos
+  - Configurações:
+    * Número de filtros: 64
+    * Componentes PCA: 128
+    * Regularização (λ): 0.01
+
+Speedups vs CNN Tradicional:
+  - CELM Básica: 5.53x
+  - CELM Avançada: 9.34x
+  - CELM Otimizada: 2.70x
+  - CELM Eficiente: 6.07x
+
+Eficiência (acurácia/tempo):
+  - CNN Tradicional: 0.025111
+  - CELM Básica: 0.091983 (3.66x vs CNN)
+  - CELM Avançada: 0.197945 (7.88x vs CNN)
+  - CELM Otimizada: 0.059803 (2.38x vs CNN)
+  - CELM Eficiente: 0.145529 (5.80x vs CNN)
