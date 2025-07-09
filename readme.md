@@ -112,6 +112,6 @@ Se você utilizar este código em sua pesquisa, por favor cite:
 }
 ```
 
-## Licença
+## Patente
 
-Este projeto está licenciado sob os termos da licença MIT.
+Este projeto é patenteável por Aia Tecnologia Ltda.
