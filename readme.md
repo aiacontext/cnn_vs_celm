@@ -111,7 +111,3 @@ Se você utilizar este código em sua pesquisa, por favor cite:
   url = {https://github.com/aiacontext/cnn_vs_celm}
 }
 ```
-
-## Patente
-
-Este projeto é patenteável por Aia Tecnologia Ltda.
